@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://cdw6cfd7ok7dy"]
+
+[ext_resource type="Texture2D" uid="uid://nd4qjpgnahj1" path="res://Textures/gravelly_sand_diff_4k.jpg" id="1_q2fht"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikcpc"]
+albedo_texture = ExtResource("1_q2fht")
+uv1_triplanar = true
+
+[node name="Main level" type="Node3D" unique_id=1578488819]
+
+[node name="CSGPolygon3D" type="CSGPolygon3D" parent="." unique_id=1125598165]
+transform = Transform3D(3, 0, 0, 0, -1.3113416e-07, 3, 0, -3, -1.3113416e-07, -1.3068447, 0.4082591, 0.45489347)
+material = SubResource("StandardMaterial3D_ikcpc")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=938386936]
+transform = Transform3D(1, 0, 0, 0, 0.86993426, 0.49316773, 0, -0.49316773, 0.86993426, 0, 1.0400624, 1.0980372)
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1361672497]
+transform = Transform3D(0.37125275, -0.79737335, 0.4757806, 0.49052817, 0.60348636, 0.62863857, -0.7883867, 0, 0.61518, 1.3249606, 2.386693, 0)
