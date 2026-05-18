@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://6na2jey8d4j2" path="res://Scripts/main_level.gd" id="1_ikcpc"]
 [ext_resource type="Texture2D" uid="uid://nd4qjpgnahj1" path="res://Textures/gravelly_sand_diff_4k.jpg" id="1_q2fht"]
-[ext_resource type="Texture2D" uid="uid://by7myg037hnm8" path="res://Sprites/bike.png" id="3_5erdv"]
+[ext_resource type="Texture2D" uid="uid://bvdchurssvw7h" path="res://Sprites/bike.png" id="3_5erdv"]
 [ext_resource type="Script" uid="uid://c8b1nslu1sa1t" path="res://Scripts/player.gd" id="3_qbrl8"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikcpc"]
@@ -66,18 +66,18 @@ transform = Transform3D(3, 0, 0, 0, -1.3113416e-07, 3, 0, -3, -1.3113416e-07, -1
 material = SubResource("StandardMaterial3D_ikcpc")
 
 [node name="CSGPolygon3D2" type="CSGPolygon3D" parent="CSGPolygon3D" unique_id=2126479205]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.917, 0, 0.002)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -1.9, 0, 0.002)
 material = SubResource("StandardMaterial3D_q2fht")
 
 [node name="CSGPolygon3D3" type="CSGPolygon3D" parent="CSGPolygon3D" unique_id=146763712]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.917, 0, 0.002)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.9, 0, 0.002)
 material = SubResource("StandardMaterial3D_q2fht")
 
 [node name="Player" type="Camera3D" parent="CSGPolygon3D" unique_id=938386936]
 transform = Transform3D(0.33333334, 0, 0, 0, 0.18290547, -0.27866954, 0, 0.27866954, 0.18290547, 0.5, 0.06432736, 0.10534373)
 fov = 103.0
 near = 0.01
-far = 74.88
+far = 2.01
 script = ExtResource("3_qbrl8")
 
 [node name="AnimatedSprite3D" type="AnimatedSprite3D" parent="CSGPolygon3D/Player" unique_id=2006413754]
