@@ -22,6 +22,10 @@ window/size/viewport_height=240
 window/size/mode=4
 window/stretch/mode="canvas_items"
 
+[editor_plugins]
+
+enabled=PackedStringArray("res://addons/crt/plugin.cfg")
+
 [physics]
 
 common/physics_ticks_per_second=240
