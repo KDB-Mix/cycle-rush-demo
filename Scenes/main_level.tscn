@@ -65,6 +65,9 @@ script = ExtResource("1_ikcpc")
 [node name="CRT" type="CanvasLayer" parent="." unique_id=1233089970]
 script = ExtResource("3_a2ia3")
 scan_line_amount = 0.0
+warp_amount = 0.0
+noise_amount = 0.0
+roll_line_amount = 0.0
 metadata/_custom_type_script = "uid://bghaddibpt6f1"
 
 [node name="CSGPolygon3D" type="CSGPolygon3D" parent="." unique_id=1125598165]
