@@ -15,3 +15,9 @@ func _physics_process(delta: float) -> void:
 	else:
 		animated_sprite_3d.play("strait")
 	print(global_position)
+	elif Input.is_action_pressed("ui_left") and global_position.x > -1.15:
+		position.x -= delta
+		animated_sprite_3d.play("left")
+	else:
+		animated_sprite_3d.play("strait")
+	position.x = clamp(position.x, -1.15, 1.15)
