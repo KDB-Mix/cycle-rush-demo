@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://nd4qjpgnahj1" path="res://Textures/gravelly_sand_diff_4k.jpg" id="1_q2fht"]
 [ext_resource type="Script" uid="uid://bghaddibpt6f1" path="res://addons/crt/crt.gd" id="3_a2ia3"]
 [ext_resource type="PackedScene" uid="uid://nuh1l8lvbg" path="res://Scenes/player.tscn" id="4_a2ia3"]
+[ext_resource type="PackedScene" uid="uid://3wcld8afu7xc" path="res://Scenes/touch.tscn" id="5_a2ia3"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ikcpc"]
 albedo_texture = ExtResource("1_q2fht")
@@ -48,3 +49,5 @@ unique_name_in_owner = true
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=1361672497]
 transform = Transform3D(0.37125275, -0.79737335, 0.4757806, 0.49052817, 0.60348636, 0.62863857, -0.7883867, 0, 0.61518, 1.3249606, 2.386693, 0)
+
+[node name="Touch" parent="." unique_id=1847562345 instance=ExtResource("5_a2ia3")]
