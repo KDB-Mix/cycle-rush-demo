@@ -35,7 +35,7 @@ func update_buttons():
 	)
 
 	left.scale = button_scale
-	left.position = Vector2(0, 80)
+	left.position = Vector2(0, 0)
 
 	right.scale = button_scale
-	right.position = Vector2(half_width, 80)
+	right.position = Vector2(half_width, 0)
