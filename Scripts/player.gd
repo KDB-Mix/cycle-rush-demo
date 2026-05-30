@@ -1,3 +1,4 @@
+class_name Player
 extends Camera3D
 @onready var animated_sprite_3d: AnimatedSprite3D = $AnimatedSprite3D
 
@@ -10,5 +11,4 @@ func _physics_process(delta: float) -> void:
 		animated_sprite_3d.play("left")
 	else:
 		animated_sprite_3d.play("strait")
-	print(global_position)
 	global_position.x = clamp(global_position.x, -1.15, 1.15)
