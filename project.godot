@@ -24,7 +24,7 @@ window/stretch/mode="canvas_items"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/crt/plugin.cfg")
+enabled=PackedStringArray("res://addons/crt/plugin.cfg", "res://addons/mod_loader/_export_plugin/plugin.cfg", "res://addons/mod_tool/plugin.cfg")
 
 [input_devices]
 
